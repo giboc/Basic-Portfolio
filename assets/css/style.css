@@ -123,3 +123,23 @@ form{
     padding-bottom: 5px;
     font-size: 10px;
 }
+
+.img_wrapper{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    
+   
+}
+
+.img_text{
+    position: absolute;
+    bottom: 0px;
+    color: yellow;
+    font-weight: bold;
+    width: 100%;
+    background-color: #4aaaa5;
+    text-align: center;
+    
+}
