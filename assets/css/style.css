@@ -1,4 +1,6 @@
 body{
+    
+    display: block;
     background-image: url("../images/gravel.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
@@ -43,6 +45,7 @@ img{
     width: 920px;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
     padding: 20px;
     line-height: 30px;
     background: white;
@@ -109,8 +112,17 @@ form{
 }
 
 /*    Footer styling!   */
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+.wrapper{
+    margin-bottom: 80px;
+}
+
 .footer{
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
     background-color: #666666;
@@ -122,24 +134,27 @@ form{
     padding-top: 20px;
     padding-bottom: 5px;
     font-size: 10px;
+    overflow: hidden;
 }
 
+
+/* portfolio image styling */
 .img_wrapper{
     position: relative;
     width: 200px;
     height: 200px;
     margin: 20px;
-    
-   
+    float: left;
 }
 
 .img_text{
     position: absolute;
     bottom: 0px;
-    color: yellow;
-    font-weight: bold;
+    color: white;
     width: 100%;
     background-color: #4aaaa5;
     text-align: center;
-    
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
